@@ -13,6 +13,9 @@ namespace Lab4
 
             System.Console.WriteLine("Введіть кількість елементів масиву: ");
             int arrLength = int.Parse(Console.ReadLine());
+            
+            
+            
             if (arrLength >= 1) 
             {
                 if(arrLength != 1)
@@ -31,6 +34,7 @@ namespace Lab4
                     Array.Sort(arr);
                     showArray(arr);
 
+                    
 
                     double d = (arr[1] * 1.0) / arr[0];
                     int p = arr[1] - arr[0];
@@ -83,6 +87,7 @@ namespace Lab4
                     }
 
 
+                    
                     if (isArifmetic || isGeometric)
                     {
                         if (isArifmetic) {
