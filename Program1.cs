@@ -26,7 +26,7 @@ namespace Lab1
             seconds = secondsAmount;
 
 
-            Console.WriteLine($"Результат: {hours} год. {minutes} хв. {seconds} сек");
+            System.Console.WriteLine($"Результат: {hours} год. {minutes} хв. {seconds} сек");
         }
     }
 }
