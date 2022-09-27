@@ -2,7 +2,6 @@
 
 // Malikov Vadym; Group: PD-22; Option: 11
 
-
 namespace Lab5
 {
     class Program
